@@ -1,11 +1,14 @@
-function addTwoNumbers(a,b) {
-	var result = a + b; 
-	return result;
-}
-
-var x = addTwoNumbers(5,10);
-addTwoNumbers(23,-10);
-addTwoNumbers(5,310);
+$(document).ready(function(){
+	$(".chakra").append("<p>This paragraph shows my jQuery is working</p>")
+});
 
 /* var name = prompt("what is your name?")
-console.log(name);
+console.log(name);*/
+
+$(".chakra").click(function() {
+	$(this).fadeOut(1000)
+});
+
+$(".chakraMap").ready(function(){
+	$(this).css("align:right")
+});
