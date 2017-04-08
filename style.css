@@ -22,10 +22,19 @@ img {
 	max-height: 250px;
 }
 
+.chak_descriptions {
+	max-width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .chakraMap {
-	float: right;
-	position: fixed, right;
 	width: 200px;
+	text-align: right;
+	position: fixed;
+	float: right;
+	right: 2em;
+	bottom: 2em;
 }
 
 .explanation {
